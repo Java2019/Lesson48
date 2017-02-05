@@ -15,6 +15,4 @@ public class MainActivity extends Activity {
         ListView lvSimple = (ListView) findViewById(R.id.lvSimple);
         lvSimple.setAdapter(linkAdapter);
     }
-
-
 }

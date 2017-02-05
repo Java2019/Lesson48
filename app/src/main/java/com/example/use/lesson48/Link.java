@@ -10,7 +10,7 @@ public class Link {
 
     public static final Link[] links = {
         new Link("Сила невербалики: как дети улавливают наши социальные стереотипы",
-                "https://monocler.ru/deti-sotsialnyie-stereotipyi/",
+                "<a href=https://monocler.ru/deti-sotsialnyie-stereotipyi/><font color=#AAA>Сила невербалики: как дети улавливают наши социальные стереотипы</font></a>",
                 R.drawable.boy),
 
         new Link("Когда человек перестает быть человеком? Мрачный прогноз М. Мамардашвили",

@@ -1,6 +1,7 @@
 package com.example.use.lesson48;
 
 import android.content.Context;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,7 +29,7 @@ public class LinkAdapter extends ArrayAdapter<Link> {
         if (convertView==null){
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.item, null);
         }
-        ((TextView)convertView.findViewById(R.id.text_view)).setText(link.getName());
+        ((TextView)convertView.findViewById(R.id.text_view)).setText(Html.fromHtml(link.getLink()));
         ((ImageView)convertView.findViewById(R.id.ivImg)).setImageResource(link.getImage());
         return convertView;
     }
